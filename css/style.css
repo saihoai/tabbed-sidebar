@@ -1,0 +1,10 @@
+.tabbed { width: 400px; margin: 20px auto; }
+.tabbed .tab-content { border: 1px solid #ddd; border-top: 0 none; border-radius: 0 0 5px 5px; }
+.tabbed .tab-content .media-list { padding: 15px; margin: 0; }
+.tabbed .tab-content .media-list .media { border-bottom: 1px solid #ddd; padding: 0 0 20px; }
+.tabbed .tab-content .media-list .media.last { border-bottom: 0 none; padding: 0; }
+.tabbed .tab-content .media-list .media .media-heading { word-break: break-all; }
+.tabbed .tab-content .media-list .media .media-body .desc { opacity: 0.5; font-size: 11px; }
+.tabbed .tab-content .media-list .media .media-body .desc .item { margin: 5px 10px 0 0; padding: 0 10px 0 0; }
+.tabbed .tab-content .media-list .media .media-body .desc .item.date { border-right: 1px solid #ddd; }
+.tabbed .tab-content .media-list .media .media-body .desc .item.comment .count { padding: 0 5px 0 0; }
